@@ -1,0 +1,9 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Teachers_Table_init() hook (in hooks/Teachers_Table.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Teachers_Table-Email_id-<%%VALUE(Name)%%>" class="Teachers_Table-Email_id"><%%SELECT%%><%%VALUE(Email_id)%%><%%ENDSELECT%%></td>
+		<td id="Teachers_Table-Ph_number-<%%VALUE(Name)%%>" class="Teachers_Table-Ph_number text-right"><%%SELECT%%><%%VALUE(Ph_number)%%><%%ENDSELECT%%></td>
