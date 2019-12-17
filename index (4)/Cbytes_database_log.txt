@@ -1,0 +1,4 @@
+Error checking: 
+AutoIncrement fields can be only be of integer data types. The data type of the field 'Teachers_Table.Name' is not an integer.
+Error checking: 
+AutoIncrement fields can be only be of integer data types. The data type of the field 'Teachers_Table.Name' is not an integer.
